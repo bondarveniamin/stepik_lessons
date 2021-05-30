@@ -25,7 +25,6 @@ def test_guest_should_add_item_to_basket():
         assert "The shellcoder's handbook" in result_title.text
 
     finally:
-        time.sleep(10)
         browser.quit()
         
 test_guest_should_add_item_to_basket()
