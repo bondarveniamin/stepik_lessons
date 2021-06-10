@@ -1,5 +1,5 @@
 link = "http://selenium1py.pythonanywhere.com/"
-email_address = "address_qwerty_124@email.com"
+email_address = "address_qwerty_125@email.com"
 password = "211385321Ven"
 search_button_login_or_register = "login_link"
 search_registration_email = "id_registration-email"
