@@ -8,7 +8,7 @@ search_registration_confirm_password = "id_registration-password2"
 search_button_register = '[name="registration_submit"]'
 search_result_text = ".alertinner.wicon"
 
-def test_guest_should_see_button_add_to_basket(browser):
+def test_guest_register(browser):
     # Arrange
     browser.get(link)
 
