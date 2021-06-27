@@ -19,3 +19,8 @@ class ProductPageLocators():
     RESULT_NAME_ITEM = (By.CSS_SELECTOR, '#messages div:nth-child(1) strong')
     RESULT_PRICE_ITEM = (By.CSS_SELECTOR, '#messages div:nth-child(3) strong')
     SEARCH_PRICE_ITEM = (By.CSS_SELECTOR, '.product_main .price_color')
+
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
