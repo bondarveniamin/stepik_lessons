@@ -14,6 +14,10 @@ class BasePage():
         self.url = url
         self.browser.implicitly_wait(timeout)
 
+    def go_to_bucket(self):
+        button = self.browser.find_element(*BasePageLocators.BUCKET_BUTTON)
+        button.click()
+
     def open(self):
         self.browser.get(self.url)
 
@@ -61,3 +65,6 @@ class BasePage():
             return False
 
         return True
+
+    def should_not_in_bucket_items(self):
+        assert self.is_element_present(*BasePageLocators.RESULT), 'Success message is not presented'
