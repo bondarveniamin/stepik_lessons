@@ -3,6 +3,8 @@ from selenium.webdriver.common.by import By
 
 class MainPageLocators():
     LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    BUCKET_BUTTON = (By.CSS_SELECTOR, ".btn-group .btn.btn-default:nth-child(1)")
+    RESULT = (By.CSS_SELECTOR, "#content_inner p")
 
 
 class LoginPageLocators():
